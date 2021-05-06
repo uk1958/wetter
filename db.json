@@ -1,0 +1,155 @@
+{
+  "wetterdaten": [
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "solar_radiation",
+		"displayName": "Solar radiation /W⋅m⁻²/",
+		"type": "float",
+		"Value": "207",
+		"Unit": "W/m²"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "precipitation",
+		"displayName": "Precipitation /mm/",
+		"type": "float",
+		"Value": "0",
+		"Unit": "mm"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "lightning_strike_count",
+		"displayName": "Lightning strike count",
+		"type": "int",
+		"Value": "0",
+		"Unit": "Count"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "lightning_average_distance",
+		"displayName": "Lightning average distance",
+		"type": "kilometers",
+		"Value": "0",
+		"Unit": "km"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "wind_speed",
+		"displayName": "Wind speed /m⋅s⁻¹/",
+		"type": "float",
+		"Value": "0,88",
+		"Unit": "m/s"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "wind_direction",
+		"displayName": "Wind direction",
+		"type": "angle",
+		"Value": "20,7",
+		"Unit": "°"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "maximum_wind_speed",
+		"displayName": "Maximum wind speed /m⋅s⁻¹/",
+		"type": "float",
+		"Value": "2,55",
+		"Unit": "m/s"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "air_temperature",
+		"displayName": "Air temperature",
+		"type": "tempC",
+		"Value": "10,4",
+		"Unit": "°C"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "vapor_pressure",
+		"displayName": "Vapor pressure",
+		"type": "kPa",
+		"Value": "0,43",
+		"Unit": "kPa"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "atmospheric_pressure",
+		"displayName": "Atmospheric pressure",
+		"type": "kPa",
+		"Value": "102,09",
+		"Unit": "kPa"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "relative_humidity",
+		"displayName": "Relative humidity",
+		"type": "relativeHumidity",
+		"Value": "34,7",
+		"Unit": "%"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "sensor_temperature_internal",
+		"displayName": "Sensor temperature internal",
+		"type": "tempC",
+		"Value": "11,9",
+		"Unit": "°C"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "x_orientation_angle",
+		"displayName": "X orientation angle",
+		"type": "angle",
+		"Value": "-89,2",
+		"Unit": "°"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "y_orientation_angle",
+		"displayName": "Y orientation angle",
+		"type": "angle",
+		"Value": "85",
+		"Unit": "°"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "compass_heading",
+		"displayName": "Compass heading",
+		"type": "angle",
+		"Value": "0",
+		"Unit": "°"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "north_wind_speed",
+		"displayName": "North wind speed /m⋅s⁻¹/",
+		"type": "float",
+		"Value": "0,82",
+		"Unit": "m/s"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"name": "east_wind_speed",
+		"displayName": "East wind speed /m⋅s⁻¹/",
+		"type": "float",
+		"Value": "0,31",
+		"Unit": "m/s"
+    },
+    {
+		"Timestamp": "2021-04-26T12:00:32.0084716+02:00",
+		"displayName": "Battery voltage",
+		"name": "battery_voltage",
+		"type": "volts",
+		"Value": "2,744",
+		"Unit": "V",
+		"thresholds": [
+			{
+				"name": "Battery voltage is low",
+				"type": "lessthan",
+				"warning": "2.2"
+			}
+		]
+    }
+  ]
+ }
